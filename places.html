@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visited places</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon -->
+    <link type="image/x-icon" href="SC - Copie.png" rel="shortcut icon" />
+    <link type="image/x-icon" href="SC - Copie.png" rel="icon" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="index.html">
+          <img src="SC.png" alt="logo" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Visited places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="constanta_jpg.jpg"
+              class="card-img-top"
+              alt="Image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Constanța</h5>
+              <p class="card-text">
+                Am vizitat acest oraș de trei ori în timpul studenției și de
+                fiecare dată a plouat. Dacă aș avea ocazia să mai merg acolo, aș
+                face-o cu cea mai mare plăcere.
+              </p>
+              <a
+                href="constanta_large_jpg.jpg"
+                target="_blank"
+                class="btn btn-primary"
+                >View large photo</a
+              >
+              <a
+                href="https://ro.wikipedia.org/wiki/Constan%C8%9Ba"
+                target="_blank"
+                class="btn btn-secondary"
+                >More information</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="bigar_jpg.jpeg"
+              class="card-img-top"
+              alt="Image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cascada Bigăr</h5>
+              <p class="card-text">
+                Una dintre cele mai cunoscute atracții turistice a României pe
+                care am vizitat-o în 2019 și care din păcate s-a prăbușit în
+                2021.
+              </p>
+              <a
+                href="bigar_large_jpeg.jpeg"
+                target="_blank"
+                class="btn btn-primary"
+                >View large photo</a
+              >
+              <a
+                href="https://ro.wikipedia.org/wiki/Izvorul_Big%C4%83r"
+                target="_blank"
+                class="btn btn-secondary"
+                >More information</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="brasov_jpg.JPG"
+              class="card-img-top"
+              alt="Image not found"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Brașov</h5>
+              <p class="card-text">
+                Am vizitat acest oraș excepțional în primul an de facultate. Cel
+                mai impresionant este punctul de vedere panoramică cu o
+                priveliște nemaipomenită asupra întregului oraș.
+              </p>
+              <a
+                href="brasov_large_jpg.JPG"
+                target="_blank"
+                class="btn btn-primary"
+                >View large photo</a
+              >
+              <a
+                href="https://ro.wikipedia.org/wiki/Bra%C8%99ov"
+                target="_blank"
+                class="btn btn-secondary"
+                >More information</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
